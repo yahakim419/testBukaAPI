@@ -2,16 +2,20 @@
   "type": "object",
   "properties": {
     "userId": {
-      "type": "integer"
+      "type": "integer",
+      "value" : 12
     },
     "id": {
-      "type": "integer"
+      "type": "integer",
+      "value" : 101
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "value" : "Recomendation"
     },
     "body": {
-      "type": "string"
+      "type": "string",
+      "value" : "Motorcycle"
     }
   },
   "required": [
@@ -21,3 +25,4 @@
     "body"
   ]
 }
+
